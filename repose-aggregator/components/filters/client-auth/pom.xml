@@ -233,7 +233,7 @@
                                         <option name="title" value="${project.name}" />
                                     </report>
                                     <fileset dir="src/test/groovy">
-                                        <include name="**/*.groovy"/>
+                                        <include name="**/GroovClass.groovy"/>
                                     </fileset>
                                 </codenarc>
                             </target>
@@ -244,7 +244,7 @@
                     <dependency>
                         <groupId>org.codenarc</groupId>
                         <artifactId>CodeNarc</artifactId>
-                        <version>0.18</version>
+                        <version>0.21</version>
                         <exclusions>
                             <exclusion>
                                 <groupId>ant</groupId>
